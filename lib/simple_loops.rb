@@ -4,7 +4,7 @@ def loop_message_5_times(message)
 end
 
 def loop_message_n_times(message, number)
-  number.times {puts message}
+  number.times { puts message }
 end
 
 def output_array(array)
@@ -13,7 +13,7 @@ end
 
 def return_string_array(array)
   string_array = Array.new
-  array.each {|each| string_array << #{each}}
+  array.each {|each| string_array << #{each} }
   string_array
 end
   
