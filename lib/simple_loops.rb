@@ -14,5 +14,6 @@ end
 def return_string_array(array)
   string_array = Array.new
   array.each {|each| string_array << #{each}
+  string_array
 end
   
